@@ -1,0 +1,3 @@
+SELECT users.ID, skills.user_ID 
+FROM users, skills 
+ORDER BY `users`.`ID` ASC
